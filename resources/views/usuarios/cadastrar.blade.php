@@ -5,7 +5,7 @@
 @section('titulo', 'Cadastrar | Animais para adoção')
 
 @section('conteudo')
-<p>Preencha o formulário</p>
+
 
 @if($errors->any())
 <div>
