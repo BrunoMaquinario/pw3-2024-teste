@@ -15,7 +15,7 @@
     @endforeach
 </div>  
 @endif
-
+{{-- cu --}}
 <div class="leading-loose">
     <form method="post" enctype="multipart/form-data" action="{{ route('animais.gravar') }}" class="p-10 bg-white rounded shadow-xl">
         @csrf
